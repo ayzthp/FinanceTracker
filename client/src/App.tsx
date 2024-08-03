@@ -12,9 +12,8 @@ function App() {
       <div className="app-container">
         <div className="navbar">
           <Link to="/"> Dashboard</Link>
-          
           <SignedIn>
-            <UserButton showName/>
+            <UserButton />
           </SignedIn>
         </div>
         <Routes>
